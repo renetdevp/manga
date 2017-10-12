@@ -22,7 +22,7 @@ app.use('/user', require('./routes/User'));
 
 //get /
 app.get('/', function(req, res) {
-    console.log(res.send('hi');
+    res.send('hi');
 });
 
 db.once('open', function() {
